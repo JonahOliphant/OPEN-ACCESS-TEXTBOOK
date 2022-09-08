@@ -335,6 +335,9 @@ footer {
 	line-height: 22px;
 	text-align: center;
 }
+.cards {
+	width: 70%;
+}
 }
 
 /* Small Tablets */
@@ -379,6 +382,9 @@ footer {
 	width: 90%;
 	text-align: center;
 	padding-left: 0px;
+}
+.cards {
+	width: 80%;
 }
 }
 
