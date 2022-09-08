@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Process and Project Management Open Access Textbook Chapter: Project Management Basics</title>
+<link href="../simpleGridTemplate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+ <!-- Header -->
+ <header class="header">
+ <h4 class="logo"><a href="../index.html" class="back">PROCESS AND PROJECT MANAGEMENT OPEN ACCESS TEXTBOOK</a></h4>
+
+ <p class="back"><a href="../index.html" class="back">Back to book home page</a></p>
+ </header>
+ <!-- Hero Section -->
+ <section class="intro2">
+<h2 class="white"><a href="index.html" class="white">Six Sigma Process Management:</a> Control Phase</h2>
+ </section>
+ <!-- Stats Gallery Section -->
+ <div class="gallery">
+
+ <p>The control phase involves implementing the actual changes, whether they be physical, behavioral or both; rewriting procedures and work instructions; retraining staff on new procedures; putting systems in place to measure and monitor the new process, such as control charts; and implementing an action plan. The key parts of the control phase are ensuring the stability of processes, maintaining cabability, and ensuring sustainability. </p>
+ <h2>Statistical Process Control (SPC)</h2>
+ <p>Statistical Process Control (SPC) as a term often is meant to refer to a group of graphical tools called control charts, which display process input or output continuous characteristics over time--with points plotted to represent statistical values of a subgroup of measurements through time.  These charts serve three purposes</p>
+ <ol>
+ <li>control the critical to process (CTP) characteristics</li>
+ <li>monitor critical to quality (CTQ), critical to cost (CTC), or critical to delivery (CTD) characteristics </li>
+ <li>as diagnostic tools for any "critical to" characteristics </li>
+ </ol>
+ <h2><strong>Process Capability and Process Performance Indices</strong></h2>
+ <p>Process capability indices (Cp and Cpk) and process performance indices (Pp, Ppk, and Cpm) identify the current state of the process and provide statistical evidence for comparing after-adjustment results to the starting point. Although these indices have a common purpose, they differ in their approach. T heir usual interpretation is based on a normal distribution of process output. </p>
+ <p><img id="107420595" src="../images/process-management/Cp-Cpk-vs-Pp-Ppk.jpg" alt="Table showing centered versus not centered and stable versus unstable" data-api-endpoint="https://uvu.instructure.com/api/v1/courses/530460/files/108040462" data-api-returntype="File" data-id="108040462" data-ally-work-around-alt="'Cp-Cpk-vs-Pp-Ppk.jpg'">
+		(Hessing, n.d.) </p>
+ <p>Cp and Cpk, commonly referred to as process capability indices, are used to define the ability of a process to produce a product that meets requirements.  Pp and Ppk are used for process performance assessment are generally used when a process is too new to determine if it is under statistical control. </p>
+ <p>As described by Oracle Applications, to understand Cp and Cpk you must have an understanding of the following terms: </p>
+ <p><strong>Specifications: </strong>Specifications define product requirements. In other words, they define what is expected from an item for it to be usable. Specifications are normally defined in terms of nominal (+/-) tolerances or ranges (low to high. A specification for a piston ring, for example, might specify that the diameter be 74mm +/- 0.05mm. The upper specification limit (USL) is the upper limit of the specified range. Similarly the lower specification limit (LSL) is the lower limit of the specified range. See: <a href="https://docs.oracle.com/cd/A60725_05/html/comnls/us/qa/specsnew.htm#c_specs" target="_blank" class="black">Specifications.</a> </p>
+ <table>
+   <tbody>
+ <tr valign="TOP">
+  <td align="LEFT">Specification</td>
+  <td align="LEFT">Specifications define product requirements. In other words, they define what is expected from an item for it to be usable. Specifications are normally defined in terms of nominal (+/-) tolerances or ranges (low to high. A specification for a piston ring, for example, might specify that the diameter be 74mm +/- 0.05mm. The upper specification limit (USL) is the upper limit of the specified range. Similarly the lower specification limit (LSL) is the lower limit of the specified range. See: <a href="https://docs.oracle.com/cd/A60725_05/html/comnls/us/qa/specsnew.htm#c_specs" target="_blank" class="black">Specifications.</a></td>
+ </tr>
+ <tr valign="TOP">
+  <td align="LEFT">Standard Deviation</td>
+  <td align="LEFT">The standard deviation is a measure of variability in a process. Defined as the root mean square (RMS) deviation from average it indicates how much a process can be expected to vary from the average. The standard deviation is normally fixed for a process that is under statistical control and can only be affected by a process change that affects the variability in a process.</td>
+ </tr>
+ <tr valign="TOP">
+  <td align="LEFT">Mean</td>
+  <td align="LEFT">The arithmetic average of a group of values.</td>
+ </tr>
+ </tbody>
+ </table>
+ <p><strong>Specification limits </strong>are the voice of the customer through either customer requirements or industry standards. The amount of variance (process spread) the customer is willing to accept sets the specification limits.</p>
+ <p>Process capability indices (Cp and Cpk) and process performance indices (Pp, Ppk, and Cpm) identify the current state of the process and provide statistical evidence for comparing after-adjustment results to the starting point. Although these indices have a common purpose, they differ in their approach. T heir usual interpretation is based on a normal distribution of process output. </p>
+ <p><strong>Cp (process capability index)</strong></p>
+ <p>Cp measures the ratio between the specification tolerance (USL-LSL) and process spread (estimated from control charts or other process information).  The Cp index is calculated using specification limits and the standard deviation only. This index indicates, in general, whether the process is capable of producing products tospecifications. No information on the ability of the process to adhere to the target value is included in this index </p>
+ <p><strong>Cp = (Upper specification limit - lower specification limit) / 6σ</strong></p>
+ <p><em>Important note:  Cp and Cpk actually use a sigma estimator whereas Pp and Ppk use an actual standard deviation.  Beyond that distinction, the formulas are the same for Cp and Pp as well as Cpk and Ppk.</em></p>
+ <p>A process that is normally distributed and is exactly midway between the specification limits would yield a Cp of 1 if the spread is +/- 3 standard deviations.</p>
+ <p>A generally accepted minimum value for Cp is 1.33 – this differs by industry, but the larger the number the better.</p>
+ <p>Limitations to this index include its requirements for both an upper and lower specification and is used once the process is centered.</p>
+ <h3><strong>Cpk (process capability index) - most widely used</strong></h3>
+ <p>Cpk measures the absolute distance of the mean to the nearest specification limit. This Cpk index is calculated using specification limits, the standard deviation, and the mean. The index indicates whether the process is capable of producing within specification and is also an indicator of the ability of the process to adhere to the target specification.</p>
+ <p>The formula for Cpk is as follows: </p>
+ <p><strong>Cpk</strong> = min(USL - mean, mean - LSL) / (3σ) where USL and LSL are the upper and lower specification limits, respectively. There are two values calculated and the minimum value (worst case) is used.</p>
+ <p><img id="107420594" src="../images/process-management/cpk.png" alt="Image of CPK formula" data-api-endpoint="https://uvu.instructure.com/api/v1/courses/530460/files/108040463" data-api-returntype="File" data-id="108040463" data-ally-work-around-alt="'cpk.png'"></p>
+ <p><em>Important note:  Cp and Cpk actually use a sigma estimator whereas Pp and Ppk use an actual standard deviation.  Beyond that distinction, the formulas are the same for Cp and Pp as well as Cpk and Ppk.</em> </p>
+ <p>A process with a Cpk of 2.0 is considered excellent, while one with a Cpk of 1.33 is considered adequate.  </p>
+ <p>Notes</p>
+ 
+ <ul>
+  <li aria-level="1">Cpk is a centering statistic for determining the location of the data points related to the customer&rsquo; s target within specifications (LSL and USL). </li>
+  <li aria-level="1">A Cpk, of 1.00 or greater indicates that the process spread is located entirely within the specification limits.</li>
+  <li aria-level="1">Cpk takes into account the centering process, unlike Cp.</li>
+  <li aria-level="1">Together with Cp, Cpk provides a common measurement for assigning an initial process capability to center on specification limits.</li>
+  <li aria-level="1">If Cpk = Cp, the process is centered.</li>
+  <li aria-level="1">The closer the Cpk value is to the Cp value, the better.</li>
+  <li aria-level="1">The closer the Cp value is to the Cpk value, the more centered the process is</li>
+  <li aria-level="1">Cpk will always be equal to or less than Cp.  Therefore, when Cpk = 1.00 or greater (regardless of the Cp value), the entire process spread (+ / - 3 standard dev) is located within the specification limits.  Compare the values of Cp to Cpk to determine how well the process is centered</li>
+  <li aria-level="1">A Cpk value of 0.00 indicates the process is centered at one of the specification limits.  Approximately 50% of the process spread will be outside the specification limits</li>
+  <li aria-level="1">A Cpk that has a negative value (for example Cpk = - 0.25) means the process is centered outside one of the specification limits.&rdquo;  More than 50% of the process spread is located outside the specification limit.</li>
+  <li aria-level="1">Data must be continuous from a controlled process.</li>
+ </ul>
+ 
+ <h3><strong>Pp (performance index)</strong></h3>
+ <p>Pp is an estimate used to measure the performance of a system in meeting customer demands or needs. It measures the ratio between the specification tolerance and process spread.  Pp helps to measure improvement over time (as do Cp and Cpk). It   signals where the process is in comparison to the customer&rsquo; s specifications (as does Cp and Cpk) </p>
+ <p>The formula for Pp is as follows: </p>
+ <p><strong>Pp =  (Upper specification limit - lower specification limit) / 6σ</strong></p>
+ <p><em>Important note:  Cp and Cpk actually use a sigma estimator whereas Pp and Ppk use an actual standard deviation.  Beyond that distinction, the formulas are the same for Cp and Pp as well as Cpk and Ppk.</em></p>
+ <p>Notes on PP: </p>
+
+ <ul>
+  <li aria-level="1">Signals where the process is in comparison to the customer's specifications</li>
+  <li aria-level="1">Uses the standard deviation from all of the data to generate a sigma</li>
+  <li aria-level="1">Examines variation within and between subgroups</li>
+  <li aria-level="1">Detects all the variation in the process even if the process drifts</li>
+  <li aria-level="1">Pp tells the amount of variation but not alignment to the target (that's Ppk).</li>
+  <li aria-level="1">When Pp ≥ 1; this indicates the process variation can potentially fit inside the specification limits.</li>
+ </ul>
+
+ <p>Use when</p>
+
+ <ul>
+  <li aria-level="1">data collected type is continuous.</li>
+  <li aria-level="1">the process is not in control (as shown by process control charts).</li>
+  <li aria-level="1">establishing an initial process capability (along with Ppk).</li>
+ </ul>
+
+ <h3><strong>Ppk (performance index)</strong></h3>
+ <p>Ppk tells us how a process has performed in the past and you cannot use it predict the future because the process is not in a state of control.</p>
+ <p>Ppk measures the absolute distance of the mean to the nearest specification limit. It provides an initial measurement to center on specification limits and examines variation within and between subgroups.  Ppk is a process capability index determining the position of the data points centering on the USL and LSL. The Ppk index is similar to its Cpk counterpart. It combines the spread and the centering of the process into a single measure. This measure also penalizes the user if the center (mean) is too close to one of its specifications. </p>
+ <p><em><strong>Ppk</strong> = min(USL - mean, mean - LSL) / (3σ) where USL and LSL are the upper and lower specification limits, respectively. There are two values calculated and the minimum value (worst case) is used.</em></p>
+ <p><em><img id="107420593" src="../images/process-management/ppk.png" alt="Image of PPK formula" data-api-endpoint="https://uvu.instructure.com/api/v1/courses/530460/files/108040461" data-api-returntype="File" data-id="108040461" data-ally-work-around-alt="'ppk.png'"></em></p>
+ <p><em>Important note:  Cp and Cpk actually use a sigma estimator whereas Pp and Ppk use an actual standard deviation.  Beyond that distinction, the formulas are the same for Cp and Pp as well as Cpk and Ppk.</em></p>
+ <p>Benefits:</p>
+ 
+ <ul>
+  <li aria-level="1">Provides an initial measurement to center on specification limits.</li>
+  <li aria-level="1">Uses the standard deviation from all of the data to generate a sigma.</li>
+  <li aria-level="1">Used when the process is not in statistical control, but fits the normal distribution pattern.</li>
+  <li aria-level="1">Detects all the variation in the process even if the process drifts.</li>
+ </ul>
+ 
+ <p>Use when</p>
+
+ <ul>
+  <li aria-level="1">Data collected type is continuous.</li>
+  <li aria-level="1">The process is not in control (as shown by process control charts).</li>
+  <li aria-level="1">Establishing an initial process capability (along with Pp).</li>
+ </ul>
+ 
+ <p>Notes</p>
+ 
+ <ul>
+  <li aria-level="1">Ppk tells alignment to the USL and LSL (not the amount of variation).</li>
+  <li aria-level="1">A value of Ppk &lt; 1 would indicate that the process is not meeting minimum requirements for process performance.</li>
+  <li aria-level="1">Process can be out of control. For a process to be in control, it must only have common cause variation in the data.</li>
+  <li aria-level="1">Common cause variation is having no more than one data point beyond the UCL or LCL when plotted on a X-bar and R-chart.</li>
+  <li aria-level="1">Interpret Ppk in the same way as Cpk (see earlier section on Cpk).</li>
+ </ul>
+ 
+ <p><strong>In a nutshell:</strong></p>
+ <p><img id="107420597" src="../images/process-management/cp-cpk-pp-ppk.jpg" alt="Image of all formulas" data-api-endpoint="https://uvu.instructure.com/api/v1/courses/530460/files/108040460" data-api-returntype="File" data-id="108040460" data-ally-work-around-alt="'cp-cpk-pp-ppk.jpg'"></p>
+ <h3><strong>Taguchi capability index, also known as Cpm (performance index)</strong></h3>
+ <p>Cpm is also referred to as the Taguchi index.</p>
+ <p>This index is touted by some to be more accurate and reliable than the other indices.</p>
+ <p>Cpm is based on the notion of reducing the variation from a target value (T).</p>
+ <p>T represents the target – in this index, T receives more focus than the specification limits.</p>
+ <p>Variation from the target T is expressed as process variability or σ2and process centering (µ - T), where μ = process average.</p>
+ <p>Cpm provides a common measurement assigning an initial process capability to a process for aligning the mean of the sample to the target.</p>
+
+ <ul>
+  <li aria-level="1"><em>T </em>= target value</li>
+  <li aria-level="1"><em>μ </em>= expected value</li>
+  <li aria-level="1"><em>σ </em>= standard deviation</li>
+ </ul>
+
+ <p>Use When</p>
+
+ <ul>
+  <li aria-level="1">the target is not the center or mean of the USL-LSL.</li>
+  <li aria-level="1">establishing an initial process capability during the Measure phase.</li>
+ </ul>
+
+ <p>Notes: </p>
+
+ <ul>
+  <li aria-level="1">Cpm is computed from data when the target spec is <em>not </em>the mean of the USL-LSL data.</li>
+  <li aria-level="1">The higher the Cpm value, the more likely the process will produce output meeting the specs and the target</li>
+ </ul>
+
+ <p>Learn more about <a href="https://www.six-sigma-material.com/Cpm.html" target="_blank" class="black">Taguchi capability index (CPM) </a> </p>
+ <h2>Specifications</h2>
+ <p>Specifications define product requirements. In other words, they define what is expected from an item for it to be usable. Specifications are normally defined in terms of nominal (+/-) tolerances or ranges (low to high. A specification for a piston ring, for example, might specify that the diameter be 74mm +/- 0.05mm. The upper specification limit (USL) is the upper limit of the specified range. Similarly the lower specification limit (LSL) is the lower limit of the specified range. See: <a href="https://docs.oracle.com/cd/A60725_05/html/comnls/us/qa/specsnew.htm#c_specs" target="_blank" class="black" rel="noreferrer noopener">Specifications</a></p>
+ <p><strong>Specification limits </strong>are the voice of the customer through either customer requirements or industry standards. The amount of variance (process spread) the customer is willing to accept sets the specification limits.</p>
+ <h2>Control charts </h2>
+ <p>The Control Chart shows us how a process has changed over time and the different measurements received. They track process statistics over time and to detect the presence of special causes. A control chart plots a process statistic, such as a subgroup mean, individual observation, weighted statistic, or number of defects, versus sample number or time. The center line (CL) is the average of the statistic by default; the upper control limit (UCL) is typically 3 sigma above the center line and lower control limit (LCL) is typically 3 sigma below the center line.  We are able to find and quickly correct any problems that arise by monitoring data in a Control Chart.</p>
+ <p><br>
+ </p>
+ <p>The data given in the figure below is a representation of a measurement taken over a period of time, specifically one measurement taken daily over a 30-day period. When data like this (measured over a period of time) is put into a control chart, it becomes much easier to see trends and also when there are measurements outside of the required limits. </p>
+ <p>&nbsp;</p>
+ <p><img src="../images/process-management/control-chart-basic.jpg" alt="" width="861" height="521"/></p>
+ <p>By observing the data in above sample, we can see that there are some points that are out of the normal distribution that we should address. The first one we see is on Day 19, where the measurement drops completely below our lower control limit. As managers, we should review that day and learn what caused this to happen to prevent it from happening in the future. Another flag is the fact that there are multiple instances where two out of the three successive points are on the same side of the centerline and are farther than two standard deviations from the mean. This shows that the project or process is consistently below where it should be measuring and comparisons would need to be done to see what the difference is between the higher days, compared to the lower days. </p>
+ <p>View <a href="https://youtu.be/9m4aFZbdyAM" target="_blank" class="black">video of how to make basic control charts in Excel</a>. </p>
+ <p>Other useful resources: </p>
+ <ul>
+ <li><a href="https://asq.org/quality-resources/control-chart" target="_blank" class="black" rel="noreferrer noopener">Description of control charts</a> by American Society for Quality. </li>
+ <li><a href="https://sixsigmastudyguide.com/x-bar-r-control-charts/" target="_blank" class="black" rel="noreferrer noopener">Different control chart types</a> by Six Sigma Study Guide.</li>
+ </ul>
+ <h2><strong>References</strong></h2>
+ <p>Hessing, T. (n.d.) Process Capability (Cp and Cpk). Six Sigma Study Guide.  Retrieved March 12, 2021 from <a href="https://sixsigmastudyguide.com/process-capability-cp-cpk/" target="_blank" class="black" rel="noreferrer noopener">https://sixsigmastudyguide.com/process-capability-cp-cpk/</a></p>
+ <p>Oracle Applications.  Cp and Cpk. Retrieved March 12, 2021 from <a href="https://docs.oracle.com/cd/A60725_05/html/comnls/us/qa/cpcpk.htm" target="_blank" class="black" rel="noreferrer noopener">https://docs.oracle.com/cd/A60725_05/html/comnls/us/qa/cpcpk.htm</a></p>
+ <p>&nbsp;</p>
+
+
+ <!-- Footer Section -->
+ <!-- Copyrights Section -->
+ <div class="copyright">&copy;2021 - <a href="https://www.linkedin.com/in/annearendt/" class="back">Dr. Anne Arendt</a></div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
