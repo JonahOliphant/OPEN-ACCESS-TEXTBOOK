@@ -100,6 +100,13 @@ a.back:hover {
   padding-bottom: 6px;
   padding-top: 6px;
   margin-bottom: 12px;
+  width: 80%;
+  float: right;
+}
+
+.header-image {
+  width: 100%;
+  float: right;
 }
 
 .button2 {
@@ -209,10 +216,10 @@ li {
 
 .thumbnail {
   position: relative;
-  left: 5%;
   float: left;
   padding: 0px;
-  margin: 0px;
+  margin: 10px;
+  left: 3.5%;
 }
 
 .tag {
