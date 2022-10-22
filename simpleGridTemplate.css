@@ -201,7 +201,7 @@ a.button2:hover {
 }
 
 .gallery h1,
-h2,
+h2
 h3,
 h4,
 h5 {
@@ -471,7 +471,7 @@ section {
   display: table;
   position: relative;
 }
-h1 {
+ h1 {
   margin: 0px auto;
   display: table;
   font-size: 26px;
@@ -519,6 +519,7 @@ nav ul li a {
   font-size: 14px;
   padding: 15px 10px;
   display: inline-block;
+  font-weight: 400;
 }
 nav ul li a:hover {
   background-color: #e2e2e2;
@@ -536,6 +537,7 @@ nav ul li a i {
 }
 nav ul li #current {
   background-color: #e2e2e2;
+  font-weight: 600;
 }
 
 /*
@@ -592,7 +594,8 @@ label {
   min-width: 225px;
   background: #e2e2e2;
   padding-top: 100px;
-  position: fixed;
+position: fixed;
+overflow-y: scroll;
   top: 0;
   bottom: 0;
   box-shadow: 0 3.5px 6px rgba(0, 0, 0, 0.16);
@@ -600,16 +603,28 @@ label {
   z-index: 1;
 }
 
-.sidebar h1 {
+.sidebar h6{
   display: block;
-  padding: 10px 20px;
   color: #fff;
   text-decoration: none;
   letter-spacing: 1px;
+  font-size: 16px;
   font-weight: 400;
-  margin: 0;
-  font-size: 25px;
-  text-transform: uppercase;
+}
+
+.sidebar h2{
+  display: block;
+  margin-left: 30px;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.sidebar h4{
+  margin-left: 30px;
+  margin-top: 5px;
+  font-size: 14px;
 }
 
 .sidebar a {
@@ -620,15 +635,20 @@ label {
   letter-spacing: 1px;
 }
 
+.sidebar h2 a{
+  padding: 10px;
+}
+
 .sidebar a:hover {
   color: rgb(127, 0, 0);
-  margin-left: 20px;
+  margin-left: 15px;
   transition: 0.2s;
   background-color: #f5f5f5;
 }
 
 .sidebar #current {
   background-color: #f5f5f5;
+  font-weight: 600;
 }
 
 /*
