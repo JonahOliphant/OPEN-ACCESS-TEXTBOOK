@@ -19,13 +19,13 @@ a.black:active {
   color: #0000FF;
 }
 a.black:link {
-  color: #6dc7d0;
+  color: #00a4b3;
 }
 a.black:visited {
-  color: #6dc7d0;
+  color: hotpink;
 }
 a.black:hover {
-  color: #FF00FF;
+  color: #ea0000;
   cursor: pointer;
   text-decoration: none;
 }
