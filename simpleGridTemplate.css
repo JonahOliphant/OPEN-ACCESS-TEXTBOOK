@@ -78,9 +78,7 @@ color: #ffffff;
 }
 
 .back {
-
   color: rgb(0, 0, 0);
- 
 }
 
 a.back:active {
@@ -536,6 +534,9 @@ nav ul li a i {
   color: #002e5b;
   transition: all 0.5s ease 0s;
 }
+nav ul li #current {
+  background-color: #e2e2e2;
+}
 
 /*
 .toggle-menu{
@@ -626,8 +627,8 @@ label {
   background-color: #f5f5f5;
 }
 
-.sidebar a.current {
-  background-color: yellow;
+.sidebar #current {
+  background-color: #f5f5f5;
 }
 
 /*
