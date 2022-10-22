@@ -15,13 +15,17 @@ body {
   min-width: 1120px;
 }
 
-a.black:active,
-a.black:link,
+a.black:active {
+  color: #0000FF;
+}
+a.black:link {
+  color: #6dc7d0;
+}
 a.black:visited {
-  color: black;
+  color: #6dc7d0;
 }
 a.black:hover {
-  color: #094944;
+  color: #FF00FF;
   cursor: pointer;
   text-decoration: none;
 }
@@ -520,7 +524,7 @@ nav ul li a {
 }
 nav ul li a:hover {
   background-color: #e2e2e2;
-  color: #000000;
+  color: rgb(127, 0, 0);
   transition: all 0.5s ease 0s;
 }
 nav ul li a:hover i {
@@ -619,6 +623,11 @@ label {
   color: rgb(127, 0, 0);
   margin-left: 20px;
   transition: 0.2s;
+  background-color: #f5f5f5;
+}
+
+.sidebar a.current {
+  background-color: yellow;
 }
 
 /*
