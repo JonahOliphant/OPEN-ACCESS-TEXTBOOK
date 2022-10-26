@@ -41,13 +41,13 @@ a.black:hover {
   font-family: 'Barlow', sans-serif;
   color: white;
   font-style: normal;
-  font-size: 44px;
+  font-size: 20px;
   /* identical to box height, or 66px */
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  margin-top: 120px;
+  margin-top: 20px;
   position: absolute;
-  width: 100%;
+  width: 50%;
   z-index: 2;
 }
 
@@ -219,7 +219,7 @@ a.button2:hover {
 }
 
 .gallery h1,
-h2
+h2,
 h3,
 h4,
 h5 {
@@ -477,8 +477,6 @@ Small Desktops
   text-decoration: none;
   list-style: none;
   margin: 0px;
-  padding: 0px;
-  outline: none;
 }
 
 section {
