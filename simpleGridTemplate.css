@@ -492,6 +492,7 @@ h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+  line-height: 114%;
 }
 h1 span {
   font-weight: 500;
@@ -519,7 +520,7 @@ h3 {
 
 ol {
   display: block;
-  list-style-type: decimal;
+  list-style-type: circle;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
