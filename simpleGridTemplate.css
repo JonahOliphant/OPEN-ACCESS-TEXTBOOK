@@ -17,7 +17,7 @@ body {
 }
 
 a.black:active {
-  color: #0000FF;
+  color: #0000ff;
 }
 a.black:link {
   color: #00a4b3;
@@ -38,7 +38,7 @@ a.black:hover {
 }
 
 .white {
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
   color: white;
   font-style: normal;
   font-size: 20px;
@@ -85,7 +85,7 @@ a.black:hover {
 }
 
 a.back {
-color: #ffffff;
+  color: #ffffff;
 }
 
 .back {
@@ -125,8 +125,6 @@ a.back:hover {
   z-index: -2;
   opacity: 0.5;
 }
-
-
 
 .button2 {
   background-color: rgb(255, 255, 255);
@@ -214,8 +212,8 @@ a.button2:hover {
   width: 80%;
   float: right;
   padding: 0px;
-  margin: 0px;
   color: black;
+  position: relative;
 }
 
 .gallery h1,
@@ -475,8 +473,7 @@ Small Desktops
 
 * {
   text-decoration: none;
-  list-style: none;
-  margin: 0px;
+  margin: 0;
 }
 
 section {
@@ -487,23 +484,63 @@ section {
   position: relative;
   text-align: center;
 }
- h1 {
-  margin: 0px auto;
-  display: table;
-  font-size: 26px;
-  padding: 40px 0px;
-  color: #fff;
-  text-align: center;
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 h1 span {
   font-weight: 500;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.gallery ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 
 header {
   display: table;
   background-color: #f5f5f5;
   margin-bottom: 0px;
-width: 100%;
+  width: 100%;
   z-index: 2;
   position: relative;
   box-shadow: 0 3.5px 6px rgba(0, 0, 0, 0.16);
@@ -515,7 +552,7 @@ nav {
   box-shadow: -1 0 3.5px 6px rgba(0, 0, 0, 1.16);
   z-index: 2;
   position: relative;
-  min-width: 1130px;
+  min-width: 1160px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -526,6 +563,8 @@ nav ul {
 }
 nav ul li {
   float: left;
+  list-style: none;
+  margin: 0;
 }
 nav ul li:last-child {
   padding-right: 0px;
@@ -607,19 +646,20 @@ label {
 
 .sidebar {
   width: 20%;
+  max-width: 300px;
   min-width: 225px;
   background: #e2e2e2;
   padding-top: 100px;
-position: fixed;
-overflow-y: scroll;
+  position: fixed;
+  overflow-y: scroll;
   top: 0;
   bottom: 0;
-  box-shadow: 0 3.5px 6px rgba(0, 0, 0, 0.50);
+  box-shadow: 0 3.5px 6px rgba(0, 0, 0, 0.5);
   float: left;
   z-index: 1;
 }
 
-.sidebar h6{
+.sidebar h6 {
   display: block;
   color: #fff;
   text-decoration: none;
@@ -628,16 +668,18 @@ overflow-y: scroll;
   font-weight: 400;
 }
 
-.sidebar h2{
+.sidebar h2 {
   display: block;
   margin-left: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 14px;
   font-weight: 400;
+  text-transform: capitalize;
 }
 
-
-.sidebar h4{
-   display: block;
+.sidebar h4 {
+  display: block;
   margin-left: 30px;
   margin-top: 5px;
   font-size: 14px;
@@ -645,13 +687,13 @@ overflow-y: scroll;
 
 .sidebar a {
   display: block;
-  padding: 15px 20px;
+  padding: 15px 10px;
   color: rgb(0, 0, 0);
   text-decoration: none;
   letter-spacing: 1px;
 }
 
-.sidebar h2 a{
+.sidebar h2 a {
   padding: 10px;
 }
 
