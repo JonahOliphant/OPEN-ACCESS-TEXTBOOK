@@ -140,7 +140,6 @@ a.back:hover {
   position: relative;
   text-align: center;
   float: right;
-  margin-bottom: 20px;
   width: 80%;
   background-color: #000000;
   z-index: -2;
@@ -251,12 +250,14 @@ h4,
 h5 {
   color: #094944;
   text-transform: uppercase;
+  margin-left: 20px;
 }
 
 .gallery p,
 ul,
 li {
   text-align: left;
+  margin-left: 20px;
 }
 
 .thumbnail {
@@ -534,6 +535,9 @@ h1 span {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+  color: #094944;
+  text-transform: uppercase;
+  margin-left: 20px;
 }
 
 h3 {
@@ -544,6 +548,9 @@ h3 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+  color: #094944;
+  text-transform: uppercase;
+  margin-left: 20px;
 }
 
 ol {
@@ -563,6 +570,10 @@ ol {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+}
+
+table {
+  margin-left: 20px;
 }
 
 header {
