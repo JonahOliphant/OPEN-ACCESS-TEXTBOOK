@@ -12,7 +12,7 @@ body {
   word-spacing: 102%;
   margin: 0px;
   padding: 0px;
-  min-width: 1120px;
+  min-width: 1220px;
   max-width: 1500px;
 }
 
@@ -213,7 +213,7 @@ a.button2:hover {
   float: right;
   padding: 0px;
   color: black;
-  position: relative;
+  position: static;
 }
 
 .gallery h1,
@@ -657,7 +657,6 @@ label {
   bottom: 0;
   box-shadow: 0 3.5px 6px rgba(0, 0, 0, 0.5);
   float: left;
-  z-index: 1;
 }
 
 .sidebar h6 {
