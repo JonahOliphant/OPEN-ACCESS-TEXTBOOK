@@ -42,14 +42,12 @@ section h2{
   color: white;
   font-style: normal;
   font-size: 44px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 44px;
   /* identical to box height, or 66px */
-  letter-spacing: 10%;
   text-transform: uppercase;
   position: absolute;
   text-align: center;
-margin-top: 120px;
   z-index: 2;
   width: 100%;
 }
@@ -58,12 +56,19 @@ margin-top: 120px;
   /* identical to box height, or 66px */
   position: absolute;
   text-align: center;
-  letter-spacing: 2px;
+letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro2 a:link {
   color: #00a4b3;
   text-decoration: underline;
+}
+
+.intro2 a:visited {
+  color: #ffffff;
 }
 
 .intro2 a:hover {
@@ -73,6 +78,7 @@ margin-top: 120px;
 .intro2 a:active {
   color: #ffffff;
 }
+
 
 .container {
   position: relative;
@@ -136,7 +142,6 @@ a.back:hover {
   float: right;
   margin-bottom: 20px;
   width: 80%;
-  height: 274px;
   background-color: #000000;
   z-index: -2;
 }
