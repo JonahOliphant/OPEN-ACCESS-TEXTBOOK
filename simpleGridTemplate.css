@@ -12,8 +12,12 @@ body {
   word-spacing: 102%;
   margin: 0px;
   padding: 0px;
-  min-width: 480px;
+  min-width: 640px;
   max-width: 1500px;
+}
+
+a.black {
+  word-wrap: break-word;
 }
 
 a.black:active {
