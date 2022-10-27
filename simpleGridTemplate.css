@@ -648,7 +648,7 @@ label {
 .sidebar {
   width: 20%;
   max-width: 300px;
-  min-width: 225px;
+  min-width: 245px;
   background: #e2e2e2;
   padding-top: 100px;
   position: fixed;
