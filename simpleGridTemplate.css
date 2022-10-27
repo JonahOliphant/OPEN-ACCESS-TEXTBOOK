@@ -12,7 +12,7 @@ body {
   word-spacing: 102%;
   margin: 0px;
   padding: 0px;
-  min-width: 640px;
+  min-width: 645px;
   max-width: 1500px;
 }
 
@@ -276,7 +276,7 @@ li {
   float: left;
   padding: 0px;
   margin: 10px;
-  left: 3.5%;
+  left: 3.3%;
 }
 
 .tag {
@@ -722,7 +722,7 @@ label {
 
 .sidebar h2 {
   display: block;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;
