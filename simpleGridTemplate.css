@@ -12,7 +12,7 @@ body {
   word-spacing: 102%;
   margin: 0px;
   padding: 0px;
-  min-width: 1220px;
+  min-width: 480px;
   max-width: 1500px;
 }
 
@@ -237,6 +237,7 @@ a.button2:hover {
 .gallery {
   /*clear: both;*/
   width: 80%;
+  min-width: 80%;
   float: right;
   padding: 0px;
   color: black;
@@ -251,6 +252,7 @@ h5 {
   color: #094944;
   text-transform: uppercase;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 .gallery p,
@@ -258,6 +260,7 @@ ul,
 li {
   text-align: left;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 .thumbnail {
@@ -530,6 +533,7 @@ h1 span {
 .gallery h2 {
   display: block;
   font-size: 1.5em;
+  line-height: 1.5em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
@@ -574,6 +578,7 @@ ol {
 
 table {
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 header {
@@ -592,9 +597,7 @@ nav {
   box-shadow: -1 0 3.5px 6px rgba(0, 0, 0, 1.16);
   z-index: 2;
   position: relative;
-  min-width: 1170px;
-  padding-right: 20px;
-  padding-left: 20px;
+  min-width: 505px;
 }
 
 nav ul {
@@ -687,7 +690,7 @@ label {
 .sidebar {
   width: 20%;
   max-width: 300px;
-  min-width: 245px;
+  min-width: 20%;
   background: #e2e2e2;
   padding-top: 100px;
   position: fixed;
