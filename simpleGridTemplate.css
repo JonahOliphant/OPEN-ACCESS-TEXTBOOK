@@ -41,7 +41,7 @@ a.black:hover {
   text-align: center;
 }
 
-section h2{
+section h2 {
   font-family: "Barlow", sans-serif;
   color: white;
   font-style: normal;
@@ -59,50 +59,57 @@ section h2{
 }
 
 .intro1 h2 {
-  margin-bottom: 30px;
-  color: #000000;
+  position: absolute;
+  color: #ffffff;
   font-weight: 600;
-  font-size: 44px;
+  font-size: 54px;
+  line-height: 110%;
   margin-left: 0px;
   margin-right: 0px;
+  text-align: left;
+  left: 10%;
+  top: 25%;
+  white-space: nowrap;
 }
 
 .intro1 h3 {
-  color: #000000;
- margin-top: 100px;
+  position: absolute;
+  color: #ffffff;
   margin-left: 0px;
   text-transform: capitalize;
   font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  left: 10%;
+  top: 60%;
 }
 
 .intro1 {
   font-family: "Barlow", sans-serif;
   letter-spacing: 1.5px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-    position: relative;
-    text-align: center;
-    float: right;
-    width: 80%;
-    height: 200px;
-    background-color: #ffffff;
-    z-index: -2;
+  justify-content: left;
+  position: relative;
+  float: right;
+  width: 80%;
+  height: 300px;
+  background-color: #112f38;
+  z-index: -2;
 }
 
 .intro2 {
   /* identical to box height, or 66px */
-letter-spacing: 1.5px;
+  letter-spacing: 1.5px;
   display: flex;
   justify-content: center;
   align-items: center;
-    position: relative;
-    text-align: center;
-    float: right;
-    width: 80%;
-    background-color: #000000;
-    z-index: -2;
-  }
+  position: relative;
+  text-align: center;
+  float: right;
+  width: 80%;
+  background-color: #000000;
+  z-index: -2;
+}
 
 .intro2 a:link {
   color: #00a4b3;
@@ -120,7 +127,6 @@ letter-spacing: 1.5px;
 .intro2 a:active {
   color: #ffffff;
 }
-
 
 .container {
   position: relative;
@@ -187,8 +193,8 @@ a.back:hover {
 }
 
 img {
- max-width: 100%;
-max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .button2 {
@@ -365,7 +371,7 @@ li {
 
 .cards:hover {
   opacity: 0.5;
-  transform: scale(1.02) perspective(1px)
+  transform: scale(1.02) perspective(1px);
 }
 
 .button {
