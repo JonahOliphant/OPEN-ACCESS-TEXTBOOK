@@ -1,9 +1,8 @@
 @charset "UTF-8";
 /* Body */
 
-html {
-  min-width: 900px;
-  width: auto;
+@media screen and (min-width: 900px) {
+  
 }
 
 body {
