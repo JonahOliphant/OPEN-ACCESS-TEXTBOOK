@@ -756,6 +756,7 @@ label {
   width: 20%;
   background: #e2e2e2;
   padding-top: 120px;
+  padding-bottom: 40px;
   position: fixed;
   overflow-y: scroll;
   top: 0;
