@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* Body */
+
 html {
-  width: 100vw;
-  min-width: 900px;
+  overflow-x: visible;
 }
 
 body {
@@ -17,6 +17,7 @@ body {
   margin: 0px;
   padding: 0px;
   min-width: 900px;
+  overflow-x: visible;
 }
 
 a.black {
