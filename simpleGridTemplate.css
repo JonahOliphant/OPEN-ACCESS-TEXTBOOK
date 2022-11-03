@@ -309,6 +309,12 @@ li {
   line-height: 27px;
 }
 
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
 .thumbnail {
   position: relative;
   float: left;
