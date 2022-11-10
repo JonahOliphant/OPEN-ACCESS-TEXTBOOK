@@ -294,6 +294,7 @@ a.button2:hover {
   padding: 0px;
   color: black;
   position: static;
+  transition: 0.25s ease;
 }
 
 .gallery h1,
@@ -778,6 +779,7 @@ label {
   float: left;
   overflow: visible;
   z-index: 1;
+  transition: 0.25s ease;
 }
 
 .sidebar h6 {
@@ -852,9 +854,17 @@ label {
   z-index: 6;
 }
 
-.m button hover {
+.m:hover {
   background-color: #e2e2e2;
   color: rgb(127, 0, 0);
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
+  scale: 110%;
+}
+
+.m:active {
+  color: rgb(127, 0, 0);
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
+  scale: 80%;
 }
 
 .gallery_large {
