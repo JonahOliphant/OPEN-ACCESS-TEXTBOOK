@@ -200,6 +200,8 @@ img {
   max-width: 100%;
   max-height: 100%;
   margin: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -575,7 +577,6 @@ Small Desktops
 
 section {
   width: 100%;
-  max-width: 1200px;
   margin: 0px auto;
   display: flex;
   position: relative;
@@ -873,6 +874,14 @@ label {
 
 .sidebar_small {
   width: 0%;
+}
+
+.intro1_large {
+  width: 100%;
+}
+
+.intro2_large {
+  width: 100%;
 }
 
 /*
