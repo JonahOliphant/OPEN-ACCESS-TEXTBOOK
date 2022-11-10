@@ -310,13 +310,13 @@ li {
   margin-right: 20px;
   font-size: 18px;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 170%;
 }
 
 p {
   font-size: 20px;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 170%;
 }
 
 .thumbnail {
@@ -601,6 +601,7 @@ h1 span {
   color: #094944;
   text-transform: uppercase;
   margin-left: 20px;
+  margin-top: 60px;
 }
 
 h3 {
@@ -614,6 +615,7 @@ h3 {
   color: #094944;
   text-transform: uppercase;
   margin-left: 20px;
+  margin-top: 60px;
 }
 
 ol {
@@ -813,6 +815,19 @@ label {
 .sidebar #current {
   background-color: #f5f5f5;
   font-weight: 600;
+}
+
+ .m {
+  position: absolute;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 4px 1px rgba(0 ,0, 0, .3);
+  left: 100%;
+  top: 2rem;
+  transform: translateX(-50%);
+  cursor: pointer;
 }
 
 /*
