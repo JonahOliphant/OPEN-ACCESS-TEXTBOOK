@@ -890,8 +890,16 @@ label {
   width: 75%;
 }
 
+.intable h3 {
+  margin-left: 0px;
+}
+
 .intable_large {
-  width: 93.5%;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .footer_large {
