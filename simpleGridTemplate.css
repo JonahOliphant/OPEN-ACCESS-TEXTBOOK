@@ -887,7 +887,11 @@ label {
 }
 
 .intable {
-  width: 75%;
+  width: 80%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .intable h3 {
