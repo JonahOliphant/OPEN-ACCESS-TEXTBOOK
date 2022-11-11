@@ -200,8 +200,6 @@ img {
   max-width: 100%;
   max-height: 100%;
   margin: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
   box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -429,7 +427,7 @@ p {
   font-weight: lighter;
   letter-spacing: 2px;
   border-top-width: 2px;
-  width: 80%;
+  min-width: 80%;
   float: right;
 }
 
@@ -881,6 +879,10 @@ label {
 }
 
 .intro2_large {
+  width: 100%;
+}
+
+.copyright_large {
   width: 100%;
 }
 
