@@ -1,259 +1,371 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Process and Project Management Open Access Textbook Chapter: Project Management Basics</title>
-<link href="..\simpleGridTemplate.css" rel="stylesheet" type="text/css">
-<style>@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');</style>
-</head>
-<body>
-<!-- Main Container -->
-<div class="container"> 
-  <!-- Header -->
-  <header class="header">
-    <nav>
-      <ul>
-      <li><a href="/overview.html">Overview</a></li>
-      <li><a href="/project-management/index.html">1. Project Management</a></li>
-      <li><a href="/process-mgmt/index.html">2. Process Management</a></li>
-      <li><a href="/six-sigma/index.html" id="current">3. Six Sigma</a></li>
-      <li><a href="/lean/index.html">4. Lean Management</a></li>
-      <li><a href="/agile/index.html">5. Agile Management</a></li>
-      <li><a href="/tying-together/index.html">6. Tying it All Together</a></li>
-      <li><a href="/futuredirections.html">7. Future Directions</a></li>
-      </ul>
-      </nav>
-  </header>
-  <div class="sidebar">
-    <button class="m">↹</button>
-    <h6><a href="/index.html" class="back">Home</a></h6>
-    <h6><a href="/overview.html">Overview</a></h6>
-    <h6><a href="/project-management/index.html">Project Management</a></h6>
-    <h6><a href="/process-mgmt/index.html">Process Managment</a></h6>
-    <h6><a href="/six-sigma/index.html" id="current">Six Sigma</a></h6>
-    <h2><a href="/six-sigma/six-sigma.html">Six Sigma Overview</a></h2>
-      <h2><a href="/six-sigma/six-sigma-define.html">Six Sigma Define Phase</a></h2>
-    <h2><a href="/six-sigma/six-sigma-measure.html" id="current">Six Sigma Measure Phase</a></h2>
-    <h2><a href="/six-sigma/six-sigma-analyze.html">Six Sigma Analyze Phase</a></h2>
-      <h2><a href="/six-sigma/six-sigma-improve.html">Six Sigma Improve Phase</a></h2>
-    <h2><a href="/six-sigma/six-sigma-control.html">Six Sigma Control Phase</a></h2>
-    <h2><a href="/six-sigma/design-for-six-sigma.html">Design for Six Sigma</a></h2>
-    <h6><a href="/lean/index.html">Lean Managment</a></h6>
-    <h6><a href="/agile/index.html">Agile Management</a></h6>
-    <h6><a href="/tying-together/index.html">Tying it All Together</a></h6>
-    <h6><a href="/futuredirections.html">Future Directions</a></h6>
-   </div>  
-</header>
-  <!-- Hero Section -->
-  <section class="intro2">
-<h2 class="white"><a class="white" href="index.html">Six Sigma Process Management</a>: Measure Phase</h2>
-<img class="pic" src="../images/SIX SIGMA.jpg" alt="Six Sigma (6&sigma;) Process Management"/>
-  </section>
-  <!-- Stats Gallery Section -->
-  <div class="gallery">
-    <h1>Measure Phase</h1>
-    <p>Measurement is perhaps one of the most important aspects of Six Sigma since the overall idea is to reduce variation and eliminate defects. </p>
-    <p>First, let's review what a statistic is since there are definitely instances where statistical measures are used in Six Sigma. A statistic is a fact or piece of data from a study of a large quantity of data, often numerical.  Often statistics are based on a sample (preferably random) from a population (the entire group).  There are two basic types of statistics: qualitative and quantitative. </p>
-    <ul>
-      <li>Quantitative statistics are information about quantities and is therefore numbers.</li>
-      <li>Qualitative statistics are descriptive and relates to phenomenon which can be observed but not measured</li>
-    </ul>
-    <h3>Quantitative Statistics Introduction</h3>
-    <p>Throughout statistics we denote:    </p>
-    <ul>
-      <li>N : the number of observations in the population, that is the population size</li>
-      <li>n : the number of observations in a sample, that is, the sample size</li>
-      <li>x<sub>i</sub>: the i- th observation</li>
-    </ul>
-    <h4>Common types of data</h4>
-    <p>There are four common types of data you will see frequently in measurement: </p>
-    <ul>
-      <li>Nominal / Qualitative / Categorical (e.g. names, colors, types, varieties, etc.)</li>
-      <li>Ordinal (ordered:  e.g. rankings, places, order)</li>
-      <li>Discrete (Integer values: e.g. number of students in class)</li>
-      <li>Quantitative (value has meaning, amounts, usually continuous)</li>
-    </ul>
-    <h3>Measures of Central Tendency</h3>
-    <p>Measures of central tendency (center, location) measures the middle point of a distribution or data; these include mean and median.</p>
-    <p><strong>Mean</strong>. The arithmetic average of a group of values. The mean is a measure of the center in the sense that it &ldquo;balances&rdquo; the deviations from the mean.   It can be thought of as the "center of gravity" of a distribution.</p>
-    <blockquote>
-      <p>Mean = average [sum(x) / n]</p>
-      <p>x&rsquo;s are the data values</p>
-      <p>n = total number of x&rsquo;s</p>
-    </blockquote>
-    <p>Population mean: the mean of all the values in a population.</p>
-    <p>Sample mean: the mean of sample values collected. If the sample is random and the sample size is large then the same mean is a good estimate of the population mean.</p>
-    <p>Note that the population mean and sample mean are arithmetic means or average, and computed in the same manner.</p>
-    <p><strong>Median</strong>. The middle value of data when ordered from smallest to largest. The median is a measure of the center in the sense that it &ldquo;balances&rdquo; the number of observations on both sides of the median.</p>
-    <blockquote>
-      <p>(3,6,8,9,12) median = 8</p>
-      <p>(3,5,6,8,9,12) median = 7 (avg. of middle two numbers)</p>
-    </blockquote>
-    <p><strong>Mode. </strong> The most frequent number. </p>
-    <blockquote>
-      <p>(3,5,6,6,7,9,12) = 6</p>
-    </blockquote>
 
-	  <p><a title="Cmglee, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Visualisation_mode_median_mean.svg"><img width="256" alt="Visualisation mode median mean" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Visualisation_mode_median_mean.svg/256px-Visualisation_mode_median_mean.svg.png"></a></p>
-	  
-    <h3>Measure of Dispersion</h3>
-    <p>Measure of dispersion (variability, spread): measures the extent to which the observations are scattered; these include standard deviation and range.</p>
-    <p><strong>Spread</strong>.  In addition to knowing where the center is for a given distribution, we often want to know how "spread out" the distribution is -- this gives us a measure of the variability of values taken from this distribution. The below graphic shows the general shape of three symmetric unimodal distributions with identical measures of center, but very different amounts of "spread".</p>
-    <p><img id="107437623" src="../images/statistics/examplesOfSpread.jpg" alt="Diagram showing narrow and broad distribution" data-api-endpoint="https://uvu.instructure.com/api/v1/courses/530460/files/108040475" data-api-returntype="File" data-id="108040475" data-ally-work-around-alt="'examplesOfSpread.jpg'"></p>
-    <p>(Emory Oxford College Mathematics and Computer Science, n.d.) </p>
-    <p><strong>Range.</strong> Largest observation minus smallest observation (max minus min)</p>
-    <p><strong>Population variance</strong>. The (population) variance is the average of the squared deviations from the population mean.</p>
-    <p><strong>Sample variance. </strong>The (sample) variance is the &ldquo;average&rdquo; of the squared deviations from the (sample) mean.</p>
-    <p><strong>Standard deviation.</strong> The standard deviation is a measure of variability in a process. Defined as the root mean square (RMS) deviation from average it indicates how much a process can be expected to vary from the average. The standard deviation is normally fixed for a process that is under statistical control and can only be affected by a process change that affects the variability in a process.</p>
-    <p><strong>Coefficient of variation</strong>.  The coefficient of variation (CV) is a statistical measure of the dispersion of data points in a data series around the mean. It shows the extent of variability in relation to the mean of the population.</p>
-    <p><strong>Outliers</strong>. Extreme observations not conforming to the rest of the observation. As a rule of thumb observations that are three standard deviations above or below the mean are considered as outliers.</p>
-    <h3>Parameter</h3>
-    <p>Parameter (in statistics): a numerical descriptive measure computed from the population measurements (census data where everyone is surveyed). Basically it is a value that tells you something about the population.  A parameter does not change since everyone (or everything) was surveyed to find the parameter.     </p>
-    <h2><strong>Process Performance Metrics</strong></h2>
-    <ul>
-      <li aria-level="1">Defects per unit (DPU)</li>
-      <li aria-level="1">Parts per million (PPM)</li>
-      <li aria-level="1">Defects per million opportunities (DPMO)</li>
-      <li aria-level="1">First pass yield (FPY)</li>
-      <li aria-level="1">Rolled throughput yield (RTY)</li>
-      <li aria-level="1">Cost of poor quality (COPQ)</li>
-    </ul>
-    <p><strong>DPU</strong> = Defects / Units</p>
-    <p><strong>parts per million</strong> (PPM or ppm): PPM = DPU x 1,000,000      </p>
-    <p>The quoted defect rate of a 6σ process is 3.4 parts per million (PPM or ppm), or 3.4 defects per million opportunities</p>
-    <p><strong>Defects per million opportunities (DPMO)</strong></p>
-    <p>DPMO = (Defects/Total Opportunities) x 1,000,000 OR DPMO = DPO x 10 6    </p>
-    <p>Benefits</p>
-  
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Process and Project Management Open Access Textbook Chapter: Project Management Basics</title>
+  <link href="..\simpleGridTemplate.css" rel="stylesheet" type="text/css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+  </style>
+</head>
+
+<body>
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <nav>
         <ul>
-          <li aria-level="1">Defines the current baseline performance</li>
-          <li aria-level="1">Provides a common measurement to use as a baseline in assessing the ability of a process to produce defect-free products</li>
-          <li aria-level="1">Provides data to help prioritize future quality projects</li>
-    </ul>
-  
-    <p><strong>Yield </strong>is defined as the percentage of products that successfully complete the production process    </p>
-    <h3><strong>First pass yield (FPY) </strong></h3>
-    <p>First pass yield (FPY) is the percentage of units that successfully complete a process with no rework. This statistic only considers the initial input data and the final output. FPY is typically used to express the process yield for an entire operation. In the case of processes with many steps, it is calculated by multiplying the yield of each step in a process.    </p>
-    <p>Example: </p>
-    <blockquote>
-      <p>You start with 100 units.  There are four sub-processes it they must get through</p>
-      <p>Process one 95% make it to the next step with no rework so throughput is 95</p>
-      <p>Process two 95% make it to the next step with no rework so throughput is 90 (result is 90.25 but one cannot have .25 of a unit)</p>
-      <p>Process three 90% make it to the next step with no rework so throughput is 81</p>
-      <p>Process four 99% make it to the next step with no rework so throughput is 80 (result is 80.19 but one cannot have .19 of a unit)</p>
-      <p>Total first pass yield, therefore, is 80 of 100 or 80%</p>
-      <p>This can also be calculated as 95% x 95% x 90% x 99% = 80.412% so 80%</p>
-    </blockquote>
-    <p>FPY can also be used to calculate across a number of sub-processes, simply by multiplying the yield of each step</p>
-    <p>First pass yield is only used for an individual sub-process. Multiplying the set of processes would give you Rolling throughput yield (RTY).     </p>
-    <h3><strong>Rolled throughput yield</strong></h3>
-    <p>Rolled throughput yield (RTY or Yrt) is the probability that a single unit can pass through a series of process steps free of defects. RTY is calculated as the overall quality level after several steps in a process have been completed by multiplying the throughput yield of each step within the process.</p>
-    <p>Calculating Rolled Throughput Yield:</p>
-    <blockquote>
-      <p>Apply the formula below. Note that rework is just that: rework. There is no distinction made regarding the complexity or number of times a product or service is reworked. RTY signals when a process or sub-process must be improved.</p>
-      <p>yield = [(N units entering process) – (# of reworks + # in scrap)] / N units entering process</p>
-      <p>Example:</p>
-      <p>A unit must go through three processes: </p>
-      <p>Of 4,000 units started, 200 defective units were scrapped and 600 additional units had one defect each that were successfully reworked.</p>
-      <p>yield of step 1= (4,000 – (200 scrap +  600 rework))/4,000</p>
-      <p>= (4,000-800)/4,000</p>
-      <p>= 3,200/4,000</p>
-      <p>=  0.80</p>
-      <p>At step two, we have 3,800 units that came in (since we have both the good units and the reworked ones). 10 are scrapped and 40 are reworked so</p>
-      <p>yield step 2 = (3,800 - (10 + 40) / 3,800) = .9868</p>
-      <p>At step three, we have 3,790 units that came in (since we have both the good units and the reworked ones).  24 are scrapped and 19 are reworked</p>
-      <p>yield step 3 = (3,790 - (24 + 19) / 3,790) = .9886</p>
-      <p>RTY = .8 x .9868 x .9886 = .78 or 78% yield</p>
-      <p>The probability of this 3 step process producing a defect free product is 78%</p>
-    </blockquote>
-    <p>Example 2:</p>
-    <div>
-      <table width="687">
-        <tbody>
-          <tr>
-            <td width="45">Step #</td>
-            <td width="188"># parts in sample lot or batch</td>
-            <td width="125"># of parts scrapped</td>
-            <td width="161"># of parts reworked</td>
-            <td width="168">throughput yield per step</td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>100</td>
-            <td>6</td>
-            <td>5</td>
-            <td>89.00%</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>94</td>
-            <td>3</td>
-            <td>0</td>
-            <td>96.81%</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>91</td>
-            <td>2</td>
-            <td>1</td>
-            <td>96.70%</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>89</td>
-            <td>3</td>
-            <td>1</td>
-            <td>95.51%</td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>Rolled throughput yield:</td>
-            <td>79.57%</td>
-          </tr>
-        </tbody>
-      </table>
-      <h2>Scatter plots/diagrams</h2>
-      <p>A scatterplot is a useful summary of a set of bivariate data (two variables).  Scatter plots are similar to line graphs in that they use horizontal and vertical axes to plot data points. However, they have a very specific purpose. Scatter plots show how much one variable is affected by another.  A scatterplot is often employed to identify potential associations between two variables, where one may be considered to be an explanatory variable (such as years of education) and another may be considered a response variable (such as annual income). The relationship between two variables is called their correlation.  Scatter plots usually consist of a large body of data. The closer the data points come when plotted to making a straight line, the higher the correlation between the two variables, or the stronger the relationship.</p>
-      <p><img id="107420596" src="../images/statistics/512px-Scatter_diagram_for_quality_characteristic_XXX.svg.png" alt="Sample scatter diagram" data-api-endpoint="https://uvu.instructure.com/api/v1/courses/530460/files/108040464" data-api-returntype="File" data-id="108040464" data-ally-work-around-alt="'512px-Scatter_diagram_for_quality_characteristic_XXX.svg.png'"></p>
-      <p>If the data points make a straight line going from the origin out to high x- and y-values, then the variables have a positive correlation . If the line goes from a high-value on the y-axis down to a high-value on the x-axis, then the variables have a negative correlation.</p>
-      <p>A perfect positive correlation is given the value of 1. A perfect negative correlation is given the value of -1. If there is absolutely no correlation present the value given is 0. The closer the number is to 1 or -1, the stronger the correlation, or the stronger the relationship between the variables. The closer the number is to 0, the weaker the correlation. So something that seems to kind of correlate in a positive direction might have a value of 0.69, whereas something with an extremely weak negative correlation might have the value -.20.      </p>
-      <p>How does one calculate the correlation? Well, a super easy way is to use correl() in Excel.      </p>
-      <p>Additonal resources:  </p>
-      <ul>
-        <li><a href="https://www.mathsisfun.com/data/correlation.html" target="_blank" class="black">Math is Fun site that explains correlation</a></li>
-      </ul>
-      <h2>Box and whisker</h2>
-      <p>The box and whisker plot is one of the most commonly used methods of displaying numerical data in the world of statistics. It is a useful chart because of the amount of information that can be quickly summarized into a simple chart. It shows a five <span role="presentation" dir="ltr">number summary of </span> <span role="presentation" dir="ltr">the class percentages, which would be the minimum, the maximum, the median, and the IQR or </span><span role="presentation" dir="ltr">InterQuartile Range which is between the 25th percentile and 75th percentile. </span> It also shows the distribution of data overall visually. <br>
-      </p>
-      <p>Credited to Tukey, box-and-whisker plots use five key data points to graphically compare data produced from different sources (different machines, operators, work centers, etc.).  The ends of the box are the first and third quartiles, Q1 and Q3.  The median forms the centerline (vertical line) within the box. The high and low data points (illustrating the range) serve as end points to lines that extend from the box (the whiskers). Each whisker (including outliers) contains 25% of the data.  The box serves as the middle half of the data containing 50% of the distribution.        </p>
-      <p>Consider this example:      </p>
-      <p>You are an instructor of a class. The range of overall student scores in percentage as things stand now looks like this: 74,86,89,95,99,97,95,84,76,54,65,89,97,47,88,67,78,81,94,69. Let's make a box and whisker to assess this data:      </p>
-      <p><img src="../images/statistics/box-and-whisker.jpg" width="495" height="495" alt=""/></p>
-      <p>The above sample Box and Whisker includes the following information: minimum score, maximum score, lower quartile, upper quartile, median, interquartile range, and whiskers. The minimum score is 46, maximum is 99, median is 85, the first quartile is 70.25, the third quartile is 94.75, and the interquartile range is 24.5 according to the plot. According to the plot, the first (lower) 25% quarter of grades were between 47 – 70 percent, the second 25% quarter of grades were between 70 – 85 percent, the third 25% quarter of grades were 85 – 95 percent, and lastly the fourth quarter of grades were between 95 -99 percent. <br>
-      </p>
-      <h2>Measurement System Analysis (MSA)</h2>
-      <p>Measurement system analysis assesses the properties of a good measurement system and also assesses the impact of measurement system variation. Within MSA we assess precision, accuracy/bias, linearity, and stability.  We also gauge repeatability and reproducibility (GR&amp;R). </p>
-      <ul>
-        <li><strong>Precision</strong> - the ability to repeatedly measure the same product or service and obtain the same results</li>
-        <li><strong>Accuracy</strong> (also known as bias) - the ability to produce an average measured value (observed value) which agrees with the true value or standard being used</li>
-        <li><strong>Linearity</strong> - a measure of the consistency of bias over the range of the measurement device</li>
-        <li><strong>Stability</strong> - the ability to repeatedly measure the same product or service over time and obtain the same average measure value</li>
-        <li><strong>Repeatability</strong> - variation obtained by the same person using the same instrument on the same product or service for repeated measurements (variability within the operator and device combination)</li>
-        <li><strong>Reproducibility</strong> - Variation obtained due to differences in people who are taking the measurements (variability between operators)</li>
-      </ul>
-      <h2>References</h2>
-      <p>Emory Oxford College Department of Mathematics and Computer Science (n.d.). Shape, center, and spread of a distribution. Retrieved July 9, 2021 from <a href="http://mathcenter.oxford.emory.edu/site/math117/shapeCenterAndSpread/" target="_blank" class="black" rel="noreferrer noopener">http://mathcenter.oxford.emory.edu/site/math117/shapeCenterAndSpread/<span aria-hidden="true" title="Links to an external site."> </span> (Links to an external site.)</a></p>
-      <p>Hessing, T. (n.d.) Process Capability (Cp and Cpk). Six Sigma Study Guide.  Retrieved March 12, 2021 from  <a href="https://sixsigmastudyguide.com/process-capability-cp-cpk/" target="_blank" class="black">https://sixsigmastudyguide.com/process-capability-cp-cpk/  (Links to an external site.)</a> </p>
-      <p>Oracle Applications.  Cp and Cpk. Retrieved March 12, 2021 from <a href="https://docs.oracle.com/cd/A60725_05/html/comnls/us/qa/cpcpk.htm" target="_blank" class="black">https://docs.oracle.com/cd/A60725_05/html/comnls/us/qa/cpcpk.htm (Links to an external site.)</a><br>
-        <!-- Footer Section -->
-  <!-- Copyrights Section -->  </p>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/overview.html">Overview</a></li>
+          <li><a href="/project-management/index.html">1. Project Management</a></li>
+          <li><a href="/process-mgmt/index.html">2. Process Management</a></li>
+          <li><a href="/six-sigma/index.html" id="current">3. Six Sigma</a></li>
+          <li><a href="/lean/index.html">4. Lean Management</a></li>
+          <li><a href="/agile/index.html">5. Agile Management</a></li>
+          <li><a href="/tying-together/index.html">6. Tying it All Together</a></li>
+          <li><a href="/futuredirections.html">7. Future Directions</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="sidebar">
+      <button class="m">↹</button>
+      <h6><a href="/index.html" class="back">Home</a></h6>
+      <h6><a href="/overview.html">Overview</a></h6>
+      <h6><a href="/project-management/index.html">Project Management</a></h6>
+      <h6><a href="/process-mgmt/index.html">Process Managment</a></h6>
+      <h6><a href="/six-sigma/index.html" id="current">Six Sigma</a></h6>
+      <h2><a href="/six-sigma/six-sigma.html">Six Sigma Overview</a></h2>
+      <h2><a href="/six-sigma/six-sigma-define.html">Six Sigma Define Phase</a></h2>
+      <h2><a href="/six-sigma/six-sigma-measure.html" id="current">Six Sigma Measure Phase</a></h2>
+      <h2><a href="/six-sigma/six-sigma-analyze.html">Six Sigma Analyze Phase</a></h2>
+      <h2><a href="/six-sigma/six-sigma-improve.html">Six Sigma Improve Phase</a></h2>
+      <h2><a href="/six-sigma/six-sigma-control.html">Six Sigma Control Phase</a></h2>
+      <h2><a href="/six-sigma/design-for-six-sigma.html">Design for Six Sigma</a></h2>
+      <h6><a href="/lean/index.html">Lean Managment</a></h6>
+      <h6><a href="/agile/index.html">Agile Management</a></h6>
+      <h6><a href="/tying-together/index.html">Tying it All Together</a></h6>
+      <h6><a href="/futuredirections.html">Future Directions</a></h6>
     </div>
-  </div>
-    <div class="copyright">&copy;2021 - <a href="https://www.linkedin.com/in/annearendt/" class="back">Dr. Anne Arendt</a></div>
-<!-- Main Container Ends -->
-<script type="text/javascript" src="/js/main.js"></script>
+    </header>
+    <!-- Hero Section -->
+    <section class="intro2">
+      <h2 class="white"><a class="white" href="index.html">Six Sigma Process Management</a>: Measure Phase</h2>
+      <img class="pic" src="../images/SIX SIGMA.jpg" alt="Six Sigma (6&sigma;) Process Management" />
+    </section>
+    <!-- Stats Gallery Section -->
+    <div class="gallery">
+      <h1>Measure Phase</h1>
+      <p>Measurement is perhaps one of the most important aspects of Six Sigma since the overall idea is to reduce
+        variation and eliminate defects. </p>
+      <p>First, let's review what a statistic is since there are definitely instances where statistical measures are
+        used in Six Sigma. A statistic is a fact or piece of data from a study of a large quantity of data, often
+        numerical.  Often statistics are based on a sample (preferably random) from a population (the entire group). 
+        There are two basic types of statistics: qualitative and quantitative. </p>
+      <ul>
+        <li>Quantitative statistics are information about quantities and is therefore numbers.</li>
+        <li>Qualitative statistics are descriptive and relates to phenomenon which can be observed but not measured</li>
+      </ul>
+      <h3>Quantitative Statistics Introduction</h3>
+      <p>Throughout statistics we denote: </p>
+      <ul>
+        <li>N : the number of observations in the population, that is the population size</li>
+        <li>n : the number of observations in a sample, that is, the sample size</li>
+        <li>x<sub>i</sub>: the i- th observation</li>
+      </ul>
+      <h4>Common types of data</h4>
+      <p>There are four common types of data you will see frequently in measurement: </p>
+      <ul>
+        <li>Nominal / Qualitative / Categorical (e.g. names, colors, types, varieties, etc.)</li>
+        <li>Ordinal (ordered:  e.g. rankings, places, order)</li>
+        <li>Discrete (Integer values: e.g. number of students in class)</li>
+        <li>Quantitative (value has meaning, amounts, usually continuous)</li>
+      </ul>
+      <h3>Measures of Central Tendency</h3>
+      <p>Measures of central tendency (center, location) measures the middle point of a distribution or data; these
+        include mean and median.</p>
+      <p><strong>Mean</strong>. The arithmetic average of a group of values. The mean is a measure of the center in the
+        sense that it &ldquo;balances&rdquo; the deviations from the mean.   It can be thought of as the "center of
+        gravity" of a distribution.</p>
+      <blockquote>
+        <p>Mean = average [sum(x) / n]</p>
+        <p>x&rsquo;s are the data values</p>
+        <p>n = total number of x&rsquo;s</p>
+      </blockquote>
+      <p>Population mean: the mean of all the values in a population.</p>
+      <p>Sample mean: the mean of sample values collected. If the sample is random and the sample size is large then the
+        same mean is a good estimate of the population mean.</p>
+      <p>Note that the population mean and sample mean are arithmetic means or average, and computed in the same manner.
+      </p>
+      <p><strong>Median</strong>. The middle value of data when ordered from smallest to largest. The median is a
+        measure of the center in the sense that it &ldquo;balances&rdquo; the number of observations on both sides of
+        the median.</p>
+      <blockquote>
+        <p>(3,6,8,9,12) median = 8</p>
+        <p>(3,5,6,8,9,12) median = 7 (avg. of middle two numbers)</p>
+      </blockquote>
+      <p><strong>Mode. </strong> The most frequent number. </p>
+      <blockquote>
+        <p>(3,5,6,6,7,9,12) = 6</p>
+      </blockquote>
+
+      <p><a title="Cmglee, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons"
+          href="https://commons.wikimedia.org/wiki/File:Visualisation_mode_median_mean.svg"><img width="256"
+            alt="Visualisation mode median mean"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Visualisation_mode_median_mean.svg/256px-Visualisation_mode_median_mean.svg.png"></a>
+      </p>
+
+      <h3>Measure of Dispersion</h3>
+      <p>Measure of dispersion (variability, spread): measures the extent to which the observations are scattered; these
+        include standard deviation and range.</p>
+      <p><strong>Spread</strong>.  In addition to knowing where the center is for a given distribution, we often want to
+        know how "spread out" the distribution is -- this gives us a measure of the variability of values taken from
+        this distribution. The below graphic shows the general shape of three symmetric unimodal distributions with
+        identical measures of center, but very different amounts of "spread".</p>
+      <p><img id="107437623" src="../images/statistics/examplesOfSpread.jpg"
+          alt="Diagram showing narrow and broad distribution"
+          data-api-endpoint="https://uvu.instructure.com/api/v1/courses/530460/files/108040475"
+          data-api-returntype="File" data-id="108040475" data-ally-work-around-alt="'examplesOfSpread.jpg'"></p>
+      <p>(Emory Oxford College Mathematics and Computer Science, n.d.) </p>
+      <p><strong>Range.</strong> Largest observation minus smallest observation (max minus min)</p>
+      <p><strong>Population variance</strong>. The (population) variance is the average of the squared deviations from
+        the population mean.</p>
+      <p><strong>Sample variance. </strong>The (sample) variance is the &ldquo;average&rdquo; of the squared deviations
+        from the (sample) mean.</p>
+      <p><strong>Standard deviation.</strong> The standard deviation is a measure of variability in a process. Defined
+        as the root mean square (RMS) deviation from average it indicates how much a process can be expected to vary
+        from the average. The standard deviation is normally fixed for a process that is under statistical control and
+        can only be affected by a process change that affects the variability in a process.</p>
+      <p><strong>Coefficient of variation</strong>.  The coefficient of variation (CV) is a statistical measure of the
+        dispersion of data points in a data series around the mean. It shows the extent of variability in relation to
+        the mean of the population.</p>
+      <p><strong>Outliers</strong>. Extreme observations not conforming to the rest of the observation. As a rule
+        of thumb observations that are three standard deviations above or below the mean are considered as outliers.</p>
+      <h3>Parameter</h3>
+      <p>Parameter (in statistics): a numerical descriptive measure computed from the population measurements (census
+        data where everyone is surveyed). Basically it is a value that tells you something about the population.  A
+        parameter does not change since everyone (or everything) was surveyed to find the parameter.  </p>
+      <h2><strong>Process Performance Metrics</strong></h2>
+      <ul>
+        <li aria-level="1">Defects per unit (DPU)</li>
+        <li aria-level="1">Parts per million (PPM)</li>
+        <li aria-level="1">Defects per million opportunities (DPMO)</li>
+        <li aria-level="1">First pass yield (FPY)</li>
+        <li aria-level="1">Rolled throughput yield (RTY)</li>
+        <li aria-level="1">Cost of poor quality (COPQ)</li>
+      </ul>
+      <p><strong>DPU</strong> = Defects / Units</p>
+      <p><strong>parts per million</strong> (PPM or ppm): PPM = DPU x 1,000,000      </p>
+      <p>The quoted defect rate of a 6σ process is 3.4 parts per million (PPM or ppm), or 3.4 defects per million
+        opportunities</p>
+      <p><strong>Defects per million opportunities (DPMO)</strong></p>
+      <p>DPMO = (Defects/Total Opportunities) x 1,000,000 OR DPMO = DPO x 10 6 </p>
+      <p>Benefits</p>
+
+      <ul>
+        <li aria-level="1">Defines the current baseline performance</li>
+        <li aria-level="1">Provides a common measurement to use as a baseline in assessing the ability of a process to
+          produce defect-free products</li>
+        <li aria-level="1">Provides data to help prioritize future quality projects</li>
+      </ul>
+
+      <p><strong>Yield </strong>is defined as the percentage of products that successfully complete the production
+        process </p>
+      <h3><strong>First pass yield (FPY) </strong></h3>
+      <p>First pass yield (FPY) is the percentage of units that successfully complete a process with no rework. This
+        statistic only considers the initial input data and the final output. FPY is typically used to express the
+        process yield for an entire operation. In the case of processes with many steps, it is calculated by multiplying
+        the yield of each step in a process. </p>
+      <p>Example: </p>
+      <blockquote>
+        <p>You start with 100 units.  There are four sub-processes it they must get through</p>
+        <p>Process one 95% make it to the next step with no rework so throughput is 95</p>
+        <p>Process two 95% make it to the next step with no rework so throughput is 90 (result is 90.25 but one cannot
+          have .25 of a unit)</p>
+        <p>Process three 90% make it to the next step with no rework so throughput is 81</p>
+        <p>Process four 99% make it to the next step with no rework so throughput is 80 (result is 80.19 but one cannot
+          have .19 of a unit)</p>
+        <p>Total first pass yield, therefore, is 80 of 100 or 80%</p>
+        <p>This can also be calculated as 95% x 95% x 90% x 99% = 80.412% so 80%</p>
+      </blockquote>
+      <p>FPY can also be used to calculate across a number of sub-processes, simply by multiplying the yield of each
+        step</p>
+      <p>First pass yield is only used for an individual sub-process. Multiplying the set of processes would give you
+        Rolling throughput yield (RTY).  </p>
+      <h3><strong>Rolled throughput yield</strong></h3>
+      <p>Rolled throughput yield (RTY or Yrt) is the probability that a single unit can pass through a series of process
+        steps free of defects. RTY is calculated as the overall quality level after several steps in a process have been
+        completed by multiplying the throughput yield of each step within the process.</p>
+      <p>Calculating Rolled Throughput Yield:</p>
+      <blockquote>
+        <p>Apply the formula below. Note that rework is just that: rework. There is no distinction made regarding the
+          complexity or number of times a product or service is reworked. RTY signals when a process or sub-process must
+          be improved.</p>
+        <p>yield = [(N units entering process) – (# of reworks + # in scrap)] / N units entering process</p>
+        <p>Example:</p>
+        <p>A unit must go through three processes: </p>
+        <p>Of 4,000 units started, 200 defective units were scrapped and 600 additional units had one defect each that
+          were successfully reworked.</p>
+        <p>yield of step 1= (4,000 – (200 scrap +  600 rework))/4,000</p>
+        <p>= (4,000-800)/4,000</p>
+        <p>= 3,200/4,000</p>
+        <p>=  0.80</p>
+        <p>At step two, we have 3,800 units that came in (since we have both the good units and the reworked ones). 10
+          are scrapped and 40 are reworked so</p>
+        <p>yield step 2 = (3,800 - (10 + 40) / 3,800) = .9868</p>
+        <p>At step three, we have 3,790 units that came in (since we have both the good units and the reworked ones). 
+          24 are scrapped and 19 are reworked</p>
+        <p>yield step 3 = (3,790 - (24 + 19) / 3,790) = .9886</p>
+        <p>RTY = .8 x .9868 x .9886 = .78 or 78% yield</p>
+        <p>The probability of this 3 step process producing a defect free product is 78%</p>
+      </blockquote>
+      <p>Example 2:</p>
+      <div>
+        <table width="687">
+          <tbody>
+            <tr>
+              <td width="45">Step #</td>
+              <td width="188"># parts in sample lot or batch</td>
+              <td width="125"># of parts scrapped</td>
+              <td width="161"># of parts reworked</td>
+              <td width="168">throughput yield per step</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>100</td>
+              <td>6</td>
+              <td>5</td>
+              <td>89.00%</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>94</td>
+              <td>3</td>
+              <td>0</td>
+              <td>96.81%</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>91</td>
+              <td>2</td>
+              <td>1</td>
+              <td>96.70%</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>89</td>
+              <td>3</td>
+              <td>1</td>
+              <td>95.51%</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Rolled throughput yield:</td>
+              <td>79.57%</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>Scatter plots/diagrams</h2>
+        <p>A scatterplot is a useful summary of a set of bivariate data (two variables).  Scatter plots are similar to
+          line graphs in that they use horizontal and vertical axes to plot data points. However, they have a very
+          specific purpose. Scatter plots show how much one variable is affected by another.  A scatterplot is often
+          employed to identify potential associations between two variables, where one may be considered to be an
+          explanatory variable (such as years of education) and another may be considered a response variable (such as
+          annual income). The relationship between two variables is called their correlation.  Scatter plots usually
+          consist of a large body of data. The closer the data points come when plotted to making a straight line, the
+          higher the correlation between the two variables, or the stronger the relationship.</p>
+        <p><img id="107420596" src="../images/statistics/512px-Scatter_diagram_for_quality_characteristic_XXX.svg.png"
+            alt="Sample scatter diagram"
+            data-api-endpoint="https://uvu.instructure.com/api/v1/courses/530460/files/108040464"
+            data-api-returntype="File" data-id="108040464"
+            data-ally-work-around-alt="'512px-Scatter_diagram_for_quality_characteristic_XXX.svg.png'"></p>
+        <p>If the data points make a straight line going from the origin out to high x- and y-values, then the variables
+          have a positive correlation . If the line goes from a high-value on the y-axis down to a high-value on the
+          x-axis, then the variables have a negative correlation.</p>
+        <p>A perfect positive correlation is given the value of 1. A perfect negative correlation is given the value of
+          -1. If there is absolutely no correlation present the value given is 0. The closer the number is to 1 or -1,
+          the stronger the correlation, or the stronger the relationship between the variables. The closer the number is
+          to 0, the weaker the correlation. So something that seems to kind of correlate in a positive direction might
+          have a value of 0.69, whereas something with an extremely weak negative correlation might have the value -.20.
+        </p>
+        <p>How does one calculate the correlation? Well, a super easy way is to use correl() in Excel. </p>
+        <p>Additonal resources:  </p>
+        <ul>
+          <li><a href="https://www.mathsisfun.com/data/correlation.html" target="_blank" class="black">Math is Fun site
+              that explains correlation</a></li>
+        </ul>
+        <h2>Box and whisker</h2>
+        <p>The box and whisker plot is one of the most commonly used methods of displaying numerical data in the world
+          of statistics. It is a useful chart because of the amount of information that can be quickly summarized into a
+          simple chart. It shows a five <span role="presentation" dir="ltr">number summary of </span> <span
+            role="presentation" dir="ltr">the class percentages, which would be the minimum, the maximum, the median,
+            and the IQR or </span><span role="presentation" dir="ltr">InterQuartile Range which is between the 25th
+            percentile and 75th percentile. </span> It also shows the distribution of data overall visually. <br>
+        </p>
+        <p>Credited to Tukey, box-and-whisker plots use five key data points to graphically compare data produced from
+          different sources (different machines, operators, work centers, etc.).  The ends of the box are the first and
+          third quartiles, Q1 and Q3.  The median forms the centerline (vertical line) within the box. The high and low
+          data points (illustrating the range) serve as end points to lines that extend from the box (the whiskers).
+          Each whisker (including outliers) contains 25% of the data.  The box serves as the middle half of the data
+          containing 50% of the distribution.   </p>
+        <p>Consider this example: </p>
+        <p>You are an instructor of a class. The range of overall student scores in percentage as things stand now looks
+          like this: 74,86,89,95,99,97,95,84,76,54,65,89,97,47,88,67,78,81,94,69. Let's make a box and whisker to assess
+          this data: </p>
+        <p><img src="../images/statistics/box-and-whisker.jpg" width="495" height="495" alt="" /></p>
+        <p>The above sample Box and Whisker includes the following information: minimum score, maximum score, lower
+          quartile, upper quartile, median, interquartile range, and whiskers. The minimum score is 46, maximum is 99,
+          median is 85, the first quartile is 70.25, the third quartile is 94.75, and the interquartile range is 24.5
+          according to the plot. According to the plot, the first (lower) 25% quarter of grades were between 47 – 70
+          percent, the second 25% quarter of grades were between 70 – 85 percent, the third 25% quarter of grades were
+          85 – 95 percent, and lastly the fourth quarter of grades were between 95 -99 percent. <br>
+        </p>
+        <h2>Measurement System Analysis (MSA)</h2>
+        <p>Measurement system analysis assesses the properties of a good measurement system and also assesses the impact
+          of measurement system variation. Within MSA we assess precision, accuracy/bias, linearity, and stability.  We
+          also gauge repeatability and reproducibility (GR&amp;R). </p>
+        <ul>
+          <li><strong>Precision</strong> - the ability to repeatedly measure the same product or service and obtain the
+            same results</li>
+          <li><strong>Accuracy</strong> (also known as bias) - the ability to produce an average measured value
+            (observed value) which agrees with the true value or standard being used</li>
+          <li><strong>Linearity</strong> - a measure of the consistency of bias over the range of the measurement device
+          </li>
+          <li><strong>Stability</strong> - the ability to repeatedly measure the same product or service over time and
+            obtain the same average measure value</li>
+          <li><strong>Repeatability</strong> - variation obtained by the same person using the same instrument on the
+            same product or service for repeated measurements (variability within the operator and device combination)
+          </li>
+          <li><strong>Reproducibility</strong> - Variation obtained due to differences in people who are taking the
+            measurements (variability between operators)</li>
+        </ul>
+        <h2>References</h2>
+        <p>Emory Oxford College Department of Mathematics and Computer Science (n.d.). Shape, center, and spread of a
+          distribution. Retrieved July 9, 2021 from <a
+            href="http://mathcenter.oxford.emory.edu/site/math117/shapeCenterAndSpread/" target="_blank" class="black"
+            rel="noreferrer noopener">http://mathcenter.oxford.emory.edu/site/math117/shapeCenterAndSpread/<span
+              aria-hidden="true" title="Links to an external site."> </span> (Links to an external site.)</a></p>
+        <p>Hessing, T. (n.d.) Process Capability (Cp and Cpk). Six Sigma Study Guide.  Retrieved March 12, 2021 from  <a
+            href="https://sixsigmastudyguide.com/process-capability-cp-cpk/" target="_blank"
+            class="black">https://sixsigmastudyguide.com/process-capability-cp-cpk/  (Links to an external site.)</a> 
+        </p>
+        <p>Oracle Applications.  Cp and Cpk. Retrieved March 12, 2021 from <a
+            href="https://docs.oracle.com/cd/A60725_05/html/comnls/us/qa/cpcpk.htm" target="_blank"
+            class="black">https://docs.oracle.com/cd/A60725_05/html/comnls/us/qa/cpcpk.htm (Links to an external
+            site.)</a><br>
+          <!-- Footer Section -->
+          <!-- Copyrights Section -->
+        </p>
+      </div>
+    </div>
+    <div class="copyright">&copy;2021 - <a href="https://www.linkedin.com/in/annearendt/" class="back">Dr. Anne
+        Arendt</a></div>
+    <!-- Main Container Ends -->
+    <script type="text/javascript" src="/js/main.js"></script>
 </body>
+
 </html>
