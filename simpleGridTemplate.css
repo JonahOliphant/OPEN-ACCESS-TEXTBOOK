@@ -47,7 +47,8 @@ section h2 {
   color: white;
   font-style: normal;
   font-size: 44px;
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: 0.05em;
   line-height: 44px;
   /* identical to box height, or 66px */
   text-transform: uppercase;
@@ -59,43 +60,45 @@ section h2 {
 }
 
 .intro1 h2 {
-  position: absolute;
+  position: relative;
   color: #ffffff;
   font-weight: 600;
   font-size: 54px;
   line-height: 110%;
+  letter-spacing: 0.08em;
   margin-left: 0px;
   margin-right: 0px;
   text-align: left;
-  left: 10%;
-  top: 25%;
+  left: 9%;
   white-space: nowrap;
 }
 
 .intro1 h3 {
-  position: absolute;
+  position: relative;
   color: #ffffff;
   margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   text-transform: capitalize;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  left: 10%;
-  top: 60%;
+  letter-spacing: 0.08em;
+  left: 9%;
 }
 
 .intro1 {
   font-family: "Barlow", sans-serif;
   letter-spacing: 1.5px;
   display: flex;
-  justify-content: left;
+  align-items: center;
   position: relative;
   float: right;
   width: 80%;
-  min-width: 80vw;
-  height: 300px;
+  height: 77vh;
   background-color: #112f38;
   z-index: -2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16); 
 }
 
 .intro2 {
@@ -108,9 +111,10 @@ section h2 {
   text-align: center;
   float: right;
   width: 80%;
-  min-width: 80vw;
+  height: 38vh;
   background-color: #000000;
   z-index: -2;
+  margin-bottom: 20px;
 }
 
 .intro2 a:link {
@@ -189,6 +193,7 @@ a.back:hover {
 .pic {
   position: relative;
   object-fit: cover;
+  height: 100%;
   width: 100%;
   z-index: -2;
   opacity: 0.5;
@@ -199,7 +204,6 @@ img {
   max-width: 100%;
   max-height: 100%;
   margin: 20px;
-  box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
 .button2 {
@@ -302,7 +306,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: #094944;
+  color: #004539;
   text-transform: uppercase;
   margin-left: 70px;
   margin-right: 70px;
@@ -577,13 +581,13 @@ section {
 
 h1 {
   display: block;
-  font-size: 2em;
+  font-size: 24px;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
-  line-height: 114%;
+  line-height: 150%;
 }
 
 h1 span {
@@ -658,19 +662,19 @@ header {
   width: 100%;
   z-index: 2;
   position: relative;
-  box-shadow: 0 3.5px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 nav {
   float: right;
   background-color: #f5f5f5;
-  box-shadow: -1 0 3.5px 6px rgba(0, 0, 0, 1.16);
   z-index: 2;
   position: relative;
+  width: 100%;
+  overflow: auto;
 }
 
 nav ul {
-  display: table;
   float: right;
   padding-inline-start: 0px;
   margin-left: 10px;
@@ -686,8 +690,9 @@ nav ul li:last-child {
 }
 nav ul li a {
   color: #000000;
-  font-size: 16px;
-  padding: 15px 25px;
+  font-size: 14px;
+   height: 5vh;
+  padding: 0px 10px;
   display: inline-block;
   font-weight: 400;
 }
@@ -768,7 +773,7 @@ label {
   overflow-y: scroll;
   top: 0;
   bottom: 0;
-  box-shadow: 0 3.5px 6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   float: left;
   z-index: 1;
   transition: 0.25s ease;
@@ -840,7 +845,7 @@ label {
   font-weight: 600;
   text-align: end;
   justify-content: center;
-  box-shadow: 1px 6px 6px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 3px 3px 1px rgba(0, 0, 0, 0.3);
   bottom: 0.5%;
   left: -90px;
   cursor: pointer;
@@ -851,7 +856,7 @@ label {
 .m:hover {
   background-color: #e2e2e2;
   color: rgb(127, 0, 0);
-  box-shadow: 1px 10px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 6px 6px 6px 4px rgba(0, 0, 0, 0.5);
   transform: translateX(80px);
 }
 
