@@ -420,12 +420,12 @@ li {
 
 .copyright {
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #757575;
   text-transform: uppercase;
-  font-weight: lighter;
   letter-spacing: 2px;
   border-top-width: 2px;
   min-width: 80%;
