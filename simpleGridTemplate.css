@@ -708,11 +708,11 @@ nav ul li a:first-child{
   padding-left: 10px;
 }
 nav ul li:last-child {
-  padding-right: 10px;
+  padding-right: 30px;
 }
 
 nav ul li:first-child{
-  padding-left: 10px;
+  padding-left: 30px;
 }
 
 nav ul li a {
