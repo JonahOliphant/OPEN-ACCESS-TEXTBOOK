@@ -695,6 +695,10 @@ nav ul li {
   list-style: none;
   margin: 0;
   padding-inline-start: 0px;
+  width: 12.5%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
 }
 nav ul li:last-child {
   padding-right: 0px;
@@ -707,13 +711,6 @@ nav ul li a:last-child {
 nav ul li a:first-child{
   padding-left: 10px;
 }
-nav ul li:last-child {
-  padding-right: 30px;
-}
-
-nav ul li:first-child{
-  padding-left: 30px;
-}
 
 nav ul li a {
   color: #000000;
@@ -722,8 +719,8 @@ nav ul li a {
   font-weight: 300;
   height: 100%;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   white-space: nowrap;
 }
 nav ul li a:hover {
