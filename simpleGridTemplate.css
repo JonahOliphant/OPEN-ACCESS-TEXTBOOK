@@ -169,7 +169,10 @@ section h2 {
 }
 
 a.back {
-  color: #ffffff;
+ color: #757575;
+ font-size: 15px;
+ line-height: 15px;
+text-decoration: underline;
 }
 
 .back {
@@ -178,17 +181,17 @@ a.back {
 
 a.back:active {
   color: white;
-  text-decoration: none;
 }
 a.back:link {
   color: white;
-  text-decoration: none;
 }
 a.back:visited {
-  text-decoration: none;
+  color: hotpink;
+  text-decoration: underline;
 }
 a.back:hover {
   cursor: pointer;
+    color: #ea0000;
 }
 
 .pic {
@@ -420,8 +423,7 @@ li {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #717070;
-  color: #ffffff;
+  color: #757575;
   text-transform: uppercase;
   font-weight: lighter;
   letter-spacing: 2px;
