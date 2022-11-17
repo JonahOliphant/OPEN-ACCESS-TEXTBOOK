@@ -74,17 +74,18 @@ section h2 {
 }
 
 .intro1 h3 {
-  position: relative;
+  position: absolute;
   color: #ffffff;
   margin-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   letter-spacing: 0.08em;
   left: 9%;
+  margin-top: 165px;
 }
 
 .intro1 {
