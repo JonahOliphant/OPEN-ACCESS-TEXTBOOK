@@ -180,10 +180,10 @@ text-decoration: underline;
 }
 
 a.back:active {
-  color: white;
+  color: #757575;
 }
 a.back:link {
-  color: white;
+  color: #757575;
 }
 a.back:visited {
   color: hotpink;
