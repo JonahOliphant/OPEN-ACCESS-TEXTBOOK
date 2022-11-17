@@ -420,6 +420,7 @@ li {
 }
 
 .copyright {
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -670,6 +671,8 @@ header {
 }
 
 nav {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   background-color: #EAEAEA;
   z-index: 2;
   position: fixed;
