@@ -658,6 +658,10 @@ ol {
   padding-inline-start: 40px;
 }
 
+.gallery li::first-letter {
+  text-transform: uppercase; /* change first letter to uppercase */
+}
+
 table {
   margin-left: 70px;
   margin-right: 70px;
