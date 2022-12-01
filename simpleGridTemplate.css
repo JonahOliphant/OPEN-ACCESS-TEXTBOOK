@@ -102,6 +102,14 @@ section h2 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16); 
 }
 
+.transparent_button_DOWN {
+  background-color: transparent;
+    border: 0px;
+    position: absolute;
+    left: 45%;
+    top: 80%;
+}
+
 .intro2 {
   /* identical to box height, or 66px */
   letter-spacing: 1.5px;
@@ -944,6 +952,26 @@ label {
 
 .footer_large {
  width: 100%;
+}
+
+.transparent_button_NEXT {
+  background-color: transparent;
+    border: 0px;
+    position: relative;
+    margin-top: 30px;
+    left: 80%;
+    filter: drop-shadow(1px 2px 1.5px rgb(0 0 0 / 0.4));
+    scale: 90%;
+}
+
+.transparent_button_NEXT:hover {
+  filter: drop-shadow(2px 3px 2.5px rgb(0 0 0 / 0.4));
+  scale: 95%;
+}
+
+.transparent_button_NEXT:active {
+  filter: drop-shadow(1px 2px 1.5px rgb(0 0 0 / 0.4));
+  scale: 90%;
 }
 
 /*
