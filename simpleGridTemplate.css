@@ -110,6 +110,18 @@ section h2 {
     top: 80%;
 }
 
+.transparent_button_DOWN:hover{
+  background-color: transparent;
+    border: 0px;
+    position: absolute;
+    left: 45%;
+    top: 80%;
+    scale: 130%;
+    transition: 0.2s;
+}
+
+
+
 .intro2 {
   /* identical to box height, or 66px */
   letter-spacing: 1.5px;
@@ -990,6 +1002,7 @@ label {
 .transparent_button_NEXT:hover {
   filter: drop-shadow(2px 3px 2.5px rgb(0 0 0 / 0.4));
   scale: 90%;
+  transition: 0.3s;
 }
 
 .transparent_button_NEXT:active {
