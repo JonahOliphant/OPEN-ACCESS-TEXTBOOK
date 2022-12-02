@@ -965,17 +965,17 @@ label {
     margin-top: 30px;
     left: 80%;
     filter: drop-shadow(1px 2px 1.5px rgb(0 0 0 / 0.4));
-    scale: 90%;
+    scale: 80%;
 }
 
 .transparent_button_NEXT:hover {
   filter: drop-shadow(2px 3px 2.5px rgb(0 0 0 / 0.4));
-  scale: 95%;
+  scale: 90%;
 }
 
 .transparent_button_NEXT:active {
   filter: drop-shadow(1px 2px 1.5px rgb(0 0 0 / 0.4));
-  scale: 90%;
+  scale: 80%;
 }
 
 /*
