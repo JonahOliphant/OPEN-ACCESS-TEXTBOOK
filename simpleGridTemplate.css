@@ -338,7 +338,7 @@ h5 {
 
 
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 1051px) {
 .gallery p,
 ul,
 li {
@@ -353,7 +353,7 @@ li {
 
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .gallery p,
 ul,
 li {
